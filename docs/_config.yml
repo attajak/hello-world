@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "th" # "en-US"
@@ -24,8 +24,8 @@ description              : "An amazing website."
 url                      : "https://attajak.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "hello-world" # the subpath of your site, e.g. "/blog"
 repository               : "attajak/hello-world" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : docs/assets/images/avatar.jpg # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : docs/assets/images/avatar.jpg # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+teaser                   : "assets/images/avatar.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : "assets/images/avatar.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
@@ -112,7 +112,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:attajakjanrak@gmail.com"
+      url: "mailto:janrak@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://attajak.github.io"
@@ -292,10 +292,10 @@ defaults:
       comments: # true
       share: true
       related: true
-# _pages
+  # _pages
   - scope:
       path: ""
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
