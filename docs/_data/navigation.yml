@@ -1,17 +1,11 @@
 main:
   - title: "Home"
     url: /
-  - title: "About"
-    url: /about/
   - title: "Posts"
-    url: /year-archive/
+    url: /posts/
   - title: "Categories"
     url: /categories/
   - title: "Tags"
     url: /tags/
-  - title: "Pages"
-    url: /page-archive/
-  - title: "Collections"
-    url: /collection-archive/
-  - title: "External Link"
-    url: https://github.com/attajak
+  - title: "About"
+    url: /about/
