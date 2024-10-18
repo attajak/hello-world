@@ -1,6 +1,6 @@
 baseurl: /hello-world
 title: Hello World!
-description:
+description: Hello World's description
 theme: jekyll-theme-slate
 plugins:
   - jekyll-readme-index
