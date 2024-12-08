@@ -1,6 +1,14 @@
+url: https://attajak.github.io
 baseurl: /hello-world
+
 title: Hello World!
-description: Hello World's description
+description: สวัสดีชาวโลก
+
+github_username: attajak
+twitter_username: attajak
+facebook_username: attajak
+
 theme: jekyll-theme-slate
+
 plugins:
   - jekyll-readme-index
